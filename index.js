@@ -1,3 +1,9 @@
 //Saying Hello to all from array using key of loop
 
-Const TeamMembers = [ "Sonal","Rohit","Raj","Akash","Rahul","Pooja"]
+const TeamMembers = [ "Sonal","Rohit","Raj","Akash","Rahul","Pooja"]
+
+for (const num of TeamMembers)
+
+    {
+        console.log(`Hello ${num}`)
+    }
